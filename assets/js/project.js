@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/insta.png",
     description: "A clone of Instagram built using MERN stack. It is having basic functionality of Like, Comment, Post, Follow, etc",
     tagimg: "assets/images/project-page/mern.png",
-    Previewlink: "https://instaclone-24.herokuapp.com/signin",
+    Previewlink: "https://insta-clone-24-m31j.onrender.com/signin",
     Githublink: "https://github.com/shobhit162/MERN-instagram-clone",
   },
   {
