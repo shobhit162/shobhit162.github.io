@@ -58,7 +58,7 @@ const volunteershipcards = [
     title: "Google Summer Of Code 2023",
     cardImage: "assets/images/experience-page/gsoc.png",
     description:
-      "Mentored a project and to guided the contributor for day to day task and progress made.",
+      "Mentored a project and guided the contributors for day-to-day tasks and progress made.",
   },
   {
     title: "GirlScript Summer Of Code 2022",
