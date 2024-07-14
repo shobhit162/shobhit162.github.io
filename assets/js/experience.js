@@ -5,11 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/digit_insurance.png",
+    place: "Digit Insurance",
+    time: "(June 2023 - Present)",
+    desp: "<li>Member of the Corporate Portal Frontend UI team. Working on the Config-Driven UI. </li><li>Implemented Lazy Loading on the portal, reducing website rendering time by 80 percent, improving site performance significantly. </li><li> Resolved critical production bugs and implemented new feature requirements for the portal, significantly enhancing its unctionality and stability.</li> <li>Designed pages based on Figma specifications and worked extensively with RxJs Observables, Services, and Pipes enhancing the portal’s interactivity and data handling capabilities.</li><li> Technologies used - Angular, TypeScript, postgreSQL, Material-UI, Bootstrap, Git, BitBucket and Jira.</li>",
+  },
+  {
     title: "Student Developer",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "Google Summer Of Code",
     time: "(Mar - September, 2022)",
-    desp: "<li>Implementing <B>Cuthill-Mckee Ordering Algorithm</B> by <B>Boost Graph Library</B> to <B>pgRouting</B>.</li><li>Cuthill-Mckee Ordering algorithm is used to reduce the <B>Bandwidth</B> of the graphs. Applicable for undirected graphs.</li><li>Reducing the Bandwidth of the graph makes the various sparse matrix computations faster.</li><li>Technologies used - <B>C, C++, PostgreSQL, PostGIS, Sphinx</B>.</li>",
+    desp: "<li>Implemented <B>Cuthill-Mckee Ordering Algorithm</B> by <B>Boost Graph C++ Library</B> to <B>pgRouting</B>.</li><li>Cuthill-Mckee Ordering algorithm is used to reduce the <B>Bandwidth</B> of the graphs. Applicable for undirected graphs.</li><li>Reducing the Bandwidth of the graph makes the various sparse matrix computations faster.</li><li>Technologies used - <B>C, C++, PostgreSQL, PostGIS, Sphinx</B>.</li>",
   },
 ];
 
@@ -47,6 +54,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
+  {
+    title: "Google Summer Of Code 2023",
+    cardImage: "assets/images/experience-page/gsoc.png",
+    description:
+      "Mentored a project and to guided the contributor for day to day task and progress made.",
+  },
   {
     title: "GirlScript Summer Of Code 2022",
     cardImage: "assets/images/experience-page/1.jpg",
@@ -109,7 +122,7 @@ const showCards3 = () => {
   mentor.forEach(
     ({ title, image, subtitle, desp }) =>
       (output += `  
-      <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__item swiper-slide" style="display: flex">
         <div class="blog-slider__img">
             <img src="${image}" alt="">
         </div>
