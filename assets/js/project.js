@@ -30,6 +30,14 @@ const projects = [
     Githublink: "https://github.com/shobhit162/MERN-instagram-clone",
   },
   {
+    title: "Live Whiteboard",
+    cardImage: "assets/images/project-page/whiteboard.png",
+    description: "A live whiteboard where multiple user can draw in real time.",
+    tagimg: "assets/images/project-page/htmlcssjs.png",
+    Previewlink: "https://live-collab-whiteboard.onrender.com",
+    Githublink: "https://github.com/shobhit162/live-collab-whiteboard",
+  },
+  {
     title: "Binary Calculator",
     cardImage: "assets/images/project-page/bitcalcy.png",
     description: "A Binary Calculator made using HTMl, CSS and JavaScript. It calculates Booth, Division and Multiplication.",
