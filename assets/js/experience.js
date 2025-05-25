@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/digit_insurance.png",
     place: "Digit Insurance",
     time: "(June 2023 - Present)",
-    desp: "<li>Member of the Corporate Portal Frontend UI team. Working on the Config-Driven UI. </li><li>Implemented Lazy Loading on the portal, reducing website rendering time by 80 percent, improving site performance significantly. </li><li> Resolved critical production bugs and implemented new feature requirements for the portal, significantly enhancing its unctionality and stability.</li> <li>Designed pages based on Figma specifications and worked extensively with RxJs Observables, Services, and Pipes enhancing the portal’s interactivity and data handling capabilities.</li><li> Technologies used - Angular, TypeScript, postgreSQL, Material-UI, Bootstrap, Git, BitBucket and Jira.</li>",
+    desp: "<li>Member of the Corporate Portal Frontend UI team. Working on the Config-Driven UI. </li><li>Implemented Lazy Loading on the portal, reducing website rendering time by 38%, improving site performance significantly. </li><li> Resolved critical production bugs and implemented new feature requirements for the portal, significantly enhancing its functionality and stability.</li> <li>Designed pages based on Figma specifications and worked extensively with RxJs Observables, Services, and Pipes, enhancing the portal’s interactivity and data handling capabilities.</li><li> Technologies used - Angular, TypeScript, PostgreSQL, Material-UI, Bootstrap, Git, BitBucket and Jira.</li>",
   },
   {
     title: "Student Developer",
