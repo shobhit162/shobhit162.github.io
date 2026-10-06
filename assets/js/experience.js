@@ -15,7 +15,7 @@ const exp = [
     title: "Software Engineer",
     cardImage: "assets/images/experience-page/digit_insurance.png",
     place: "Digit Insurance",
-    time: "(June 2023 - Jan 2025)",
+    time: "(June 2023 - Apr 2025)",
     desp: "<li>Delivered end-to-end full-stack solutions by developing 70+ RESTful APIs in Java (Spring Boot) and building responsive, component-driven Angular UIs, enhancing user engagement for 100,000+ active users.</li><li>Engineered scalable microservices for backend operations and optimized Angular frontends, improving page load times by 25% and boosting cross-platform performance. </li><li> Owned implementation of Orphan Claims and Renewals, streamlining proposal and claims workflows and reducing manual processing time by ~50% for internal operations teams.</li> <li>Refactored legacy monolithic systems into modular full-stack microservices, achieving 45% scalability gains and faster feature delivery cycles.</li><li>Enhanced frontend performance by optimizing Angular components, lazy loading, and API integration, and bundle size reduction, resulting in 35% faster client-side rendering.</li><li> Technologies used - Java, SpringBoot, Angular, TypeScript, postgreSQL, Material-UI, Bootstrap, Git, BitBucket and Jira.</li>",
   },
   {
